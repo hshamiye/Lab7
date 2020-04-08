@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_04_08_125743) do
+ActiveRecord::Schema.define(version: 2020_04_08_132219) do
 
   create_table "band_genres", force: :cascade do |t|
     t.integer "band_id"

@@ -1,5 +1,8 @@
 class GenresController < ApplicationController
+  authorize_resource
   before_action :set_genre, only: [:show, :edit, :update, :destroy]
+  #before_action :check_login, only: [:show, :edit, :update, :destroy]
+
 
   # GET /genres
   # GET /genres.json
